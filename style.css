@@ -1,0 +1,116 @@
+header{
+    background:  #2B4A61;
+    width: 1095px;
+    background-image: url(./logo.png);
+    background-repeat: no-repeat;
+}
+ul,
+h1,
+h2,
+p,
+a,
+li{
+margin: 0;
+padding: 0;
+list-style: none;
+text-decoration: none;
+}
+.links{
+    display: flex;
+    align-items: center;
+
+}
+.item-list{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+   
+}
+.pages{
+    display: flex;
+}
+html{
+height: 740px;
+width: 1440px;
+}
+input[type="checkbox"] 
+  {
+    display: none;
+  }
+  
+  label {
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    background-color: blue;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  input[type="checkbox"]:checked + label {
+    background-color:blue;
+  }
+  .button{
+    background-color:#0B0E66;
+    border: 2px solid #26C7EA;
+    color:#26C7EA ;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    border-radius: 35px 0px;
+    width: 141px;
+  }
+
+  .button:hover {
+    background-color: #0B0E66;
+  }
+  .name{
+    position: absolute;
+width: 82px;
+height: 24px;
+left: 558px;
+top: 63px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+text-align: justify;
+
+color: #94CFFF;
+  }
+  .about-us{
+
+width: 78px;
+height: 24px;
+left: 678px;
+top: 63px;
+font-weight: 300;
+font-size: 20px;
+line-height: 24px;
+text-align: justify;
+
+color: #FFFFFF;
+}
+.contaks{
+    width: 89px;
+    height: 24px;
+    left: 794px;
+    top: 63px;
+    font-weight: 300;
+font-size: 20px;
+line-height: 24px;
+text-align: justify;
+
+color: #FFFFFF;
+
+}
+
+
+  
