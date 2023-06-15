@@ -2,7 +2,7 @@ header{
     background:  #2B4A61;
     margin-bottom: 39px;
     margin-top: 39px;
-    background-image: url(./logo.png) ;
+    background-image: url(./images/logo.png) ;
     padding-top: 20px;
     padding-bottom: 20px;
     background-repeat: no-repeat;
@@ -36,7 +36,7 @@ text-decoration: none;
 html{
 height: 740px;
 width: 1440px;
-background-image:url(./background.1.jpg);
+background-image:url(./images/background.1.jpg);
 background-repeat: no-repeat;
 
 }
@@ -142,6 +142,7 @@ color: #FFFFFF;
   width: 1140px;
 }
 .text{
+
   font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
@@ -153,4 +154,85 @@ display: block;
 color: #FFFFFF;
 
 }
-  
+.join{
+  font-family: 'HeadlandOne';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+text-align: center;
+  margin-bottom:179px;
+  margin-top: 43px;
+  width: 260px;
+height: 80px;
+left: 204px;
+top: 631px;
+}
+.icons{
+  display: block;
+}
+.instagram-icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-image: url(./images/instagram.png); 
+  background-size: cover;
+}
+
+.twitter-icon{
+display: inline-block;
+width: 30px;
+height: 30px;
+background-image: url(./images/twitter.png); 
+background-size: cover;}
+
+.youtube-icon{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-image: url(./images/youtube.png); 
+  background-size: cover;
+}
+.interval{
+  position: absolute;
+width: 1440px;
+height: 350px;
+left: 0px;
+top: 890px;
+
+background: #FFFFFF;
+}
+h1{
+  margin-left: auto;
+  margin-right: auto;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+text-align: justify;
+
+color: #0A3853;
+
+}
+.auhtor{
+width: 151px;
+height: 29px;
+left: 645px;
+top: 1073px;
+font-family: 'Inter';
+font-style: normal;
+font-size: 24px;
+line-height: 29px;
+margin-left: auto;
+margin-right: auto;
+
+color: #000000;
+
+}
+.image{
+  position: fixed;
+  width: 400px;
+  height: 120px;
+  left: 520px;
+  top: 1230px;}
