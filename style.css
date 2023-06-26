@@ -178,9 +178,26 @@ color: #FFFFFF;
   
   color: #FFFFFF;
 }
-
+.hero{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 180px;
+  padding-bottom: 180px;
+}
+.txt-2{
+  width: 376px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: start;
+  display: block;
+  
+  color: #FFFFFF;
+}
 .text{
-
+width: 298px;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
@@ -193,21 +210,11 @@ color: #FFFFFF;
 
 }
 .join{
-  font-family: 'HeadlandOne';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 30px;
-text-align: center;
-  margin-bottom:179px;
   margin-top: 43px;
-  width: 260px;
-height: 80px;
-left: 204px;
-top: 631px;
+
 }
-.icons{
-  display: block;
+.icons li:not(:last-child){
+margin-bottom: 24px;
 }
 .instagram-icon {
   display: inline-block;
