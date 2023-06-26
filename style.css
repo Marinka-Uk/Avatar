@@ -1,11 +1,9 @@
 header{
   display: flex;
     background:  #2B4A61;
-    margin-bottom: 39px;
-    margin-top: 39px;
     background-image: url(./images/logo.png) ;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 38px;
+    padding-bottom: 36px;
     background-repeat: no-repeat;
 }
 ul,
@@ -166,14 +164,15 @@ text-align: justify;
 color: #94CFFF;
 
   }
-.nav-link{
+.nav-link:not(:first-child)
+{
+  margin-left: 40px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 300;
   font-size: 20px;
   line-height: 24px;
   text-align: justify;
-padding-left: 40px;
 color: #FFFFFF;
 
 }
