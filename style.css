@@ -34,7 +34,7 @@ text-decoration: none;
     margin-right: 15px;
     
 }
-html{
+.section{
 height: 740px;
 width: 1440px;
 background-image:url(./images/background.1.jpg);
@@ -152,29 +152,19 @@ line-height: 25px;
   .button:hover {
     background-color: #0B0E66;
   }
-
-  .nav-link-2{
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 24px;
-text-align: justify;
-
-color: #94CFFF;
-
-  }
-.nav-link:not(:first-child)
-{
-  margin-left: 40px;
+.nav-link{
   font-family: 'Inter';
   font-style: normal;
-  font-weight: 300;
+  font-weight: 300px;
   font-size: 20px;
   line-height: 24px;
   text-align: justify;
 color: #FFFFFF;
 
+}
+.link:not(:first-child)
+{
+  margin-left: 40px;
 }
 .buttons-switch{
   font-family: 'Hammersmith One';
@@ -389,4 +379,7 @@ color: #FFFFFF;
   top: 3477px;
   
   border: 2px dashed #FFFFFF;
+}
+.header{
+  display: flex;
 }
