@@ -225,53 +225,41 @@ margin-bottom: 24px;
 }
 
 .twitter-icon{
+background-repeat: no-repeat;
 display: inline-block;
 width: 30px;
 height: 30px;
 background-image: url(./images/twitter.png); 
-background-size: cover;}
+background-size: contain;}
 
 .youtube-icon{
+  background-repeat: no-repeat;
   display: inline-block;
   width: 30px;
   height: 30px;
   background-image: url(./images/youtube.png); 
-  background-size: cover;
+  background-size: contain;
 }
 .interval{
-width: 1440px;
-height: 350px;
-left: 0px;
-top: 890px;
-
-background: #FFFFFF;
+padding-top: 78px;
+padding-bottom: 10px;
+text-align: center;
+background-color: rgba(255, 255, 255, 1);
+color: rgba(10, 56, 83, 1); padding-top: 75px;
+ padding-bottom: 10px;
+  text-align: center;
 }
 h1{
-  margin-left: auto;
-  margin-right: auto;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 44px;
-text-align: justify;
+    font-weight: 400px;
+    font-size: 36px;
+    line-height: 43.57px;
 
 color: #0A3853;
 
 }
 .auhtor{
-width: 151px;
-height: 29px;
-left: 645px;
-top: 1073px;
-font-family: 'Inter';
-font-style: normal;
-font-size: 24px;
-line-height: 29px;
-margin-left: auto;
-margin-right: auto;
-
-color: #000000;
+  font-size: 24px; 
+  line-height: 29.05px;
 
 }
 .image{
