@@ -36,10 +36,9 @@ text-decoration: none;
 }
 .section{
 height: 740px;
-width: 1440px;
 background-image:url(./images/background.1.jpg);
 background-repeat: no-repeat;
-
+background-size:cover ;
 }
 
 .switch {
@@ -98,8 +97,8 @@ input:checked + .slider:before {
   display: inline-block;
   width: 40px;
   height: 20px;
-  border-radius: 17px; /* Заокруглені кути для овальної форми */
-  overflow: hidden; /* Захист від виходу за межі елементу */
+  border-radius: 17px; 
+  overflow: hidden;
 }
 
 .slider {
@@ -288,9 +287,8 @@ border-radius: 45px 0px;
   margin-left: auto;
   margin-right: auto;
   background-image: url(./images/girl.jpg) ;
-  width: 1440px;
   height: 741px;
-
+background-size:cover ;
 }
 .interval{
   display: flex;
