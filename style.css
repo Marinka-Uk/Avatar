@@ -5,6 +5,7 @@ header{
     padding-top: 38px;
     padding-bottom: 36px;
     background-repeat: no-repeat;
+    border-bottom: 3px solid white;
 }
 ul,
 h1,
@@ -307,6 +308,8 @@ color: #141414;
 
 .words{
 display: flex;
+flex-wrap: wrap;
+align-items: center;
 width: 320px;
 height: 240px;
 margin: -17px;
@@ -377,5 +380,5 @@ color: #FFFFFF;
   display: flex;
 }
 .cards{
-
+background-image: url(./images/fon.jpg);
 }
