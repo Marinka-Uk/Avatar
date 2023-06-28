@@ -111,7 +111,7 @@ input:checked + .slider:before {
   background-color: #ccc;
   -webkit-transition: .4s;
   transition: .4s;
-  border-radius: 17px; /* Заокруглені кути для овальної форми */
+  border-radius: 17px; 
 }
 
 .slider:before {
@@ -123,10 +123,8 @@ input:checked + .slider:before {
   background-color: white;
   -webkit-transition: .4s;
   transition: .4s;
-  border-radius: 50%; /* Заокруглені кути для овальної форми */
-}
+  border-radius: 50%; }
 
-/* Решта стилів залишаються незмінними */
   .button{
     font-family: 'HeadlandOne';
 font-style: normal;
@@ -250,7 +248,7 @@ color: rgba(10, 56, 83, 1); padding-top: 75px;
   text-align: center;
 }
 h1{
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 36px;
     line-height: 43.57px;
 
@@ -265,8 +263,7 @@ color: #0A3853;
 .image{
   width: 400px;
   height: 120px;
-  left: 520px;
-  top: 1230px;}
+ }
 
   .container{
     width: 1030px;
@@ -276,24 +273,26 @@ color: #0A3853;
     margin-right: auto;
   }
   .watch{
-width: 221px;
-height: 30px;
-left: 609px;
-top: 1595px;
 font-weight: 400;
 font-size: 24px;
 line-height: 30px;
 box-sizing: border-box;
 width: 260px;
 height: 80px;
-left: 590px;
-top: 1570px;
+
 border-radius: 45px 0px;
 }
 .trailer{
-  background-image: url(./images/logo.png) ;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(./images/girl.jpg) ;
+  width: 1440px;
+  height: 741px;
+
 }
-.interval-2{
+.interval{
   display: flex;
 }
 .language{
@@ -303,7 +302,8 @@ font-family: 'HeadlandOne';
 font-weight: 400;
 font-size: 32px;
 line-height: 40px;
-text-align: justify;
+margin-left: auto;
+margin-right: auto;
 color: #141414;
 }
 
@@ -311,12 +311,15 @@ color: #141414;
 display: flex;
 width: 320px;
 height: 240px;
-left: 204px;
-top: 2474px;
+margin: -17px;
 
 background: rgba(255, 255, 255, 0.7);}
 
-.interval-3
+.word{
+  margin: 17px;
+  width: calc((100%-17px*6)/3);
+}
+.interval
 {
 width: 1438px;
 height: 350px;
@@ -340,11 +343,8 @@ text-align: justify;
 color: #141414;
 }
 .image{
-position: absolute;
 width: 400px;
 height: 120px;
-left: 519px;
-top: 3375px;
 }
 .footer
 {position: absolute;
@@ -377,4 +377,7 @@ color: #FFFFFF;
 }
 .header{
   display: flex;
+}
+.cards{
+
 }
