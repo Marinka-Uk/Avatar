@@ -6,6 +6,7 @@ header{
     padding-bottom: 36px;
     background-repeat: no-repeat;
     border-bottom: 3px solid white;
+    align-items: center;
 }
 ul,
 h1,
@@ -349,6 +350,7 @@ background-position: center;
 background-size: cover;
 }
 .footer p{
+  text-align: center;
 font-family: Inter;
 font-size: 14px;
 font-weight: 400;
@@ -362,6 +364,7 @@ color: #FFFFFF;}
 .footer .container {
 display: flex;
 align-items: center;
+justify-content: space-between;
 }
 .footer a{
 font-family: Inter;
@@ -374,4 +377,15 @@ color: #FFFFFF;
 .link{
   margin-bottom: 24px;
   margin-top: 24px;
+}
+.trailer .container{
+  display: flex;
+  justify-content: center;
+}
+.e-mail{
+  margin-bottom: 37px;
+}
+.addres{
+  border-left:  2px solid #FFFFFF ;
+  padding-left: 80px;
 }
